@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* App.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
+
+.navbar-title {
+  font-size: 24px;
+}
+
+.navbar-links a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-search input {
+  padding: 5px;
+}
+
+.navbar-search button {
+  padding: 5px 10px;
+}
+
+.movies-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movie-card {
+  width: 200px;
+  margin: 10px;
+}
+
+.movie-card img {
+  width: 100%;
+}
+
+.movie-card button {
+  margin-top: 10px;
+}
